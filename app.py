@@ -12,7 +12,7 @@ st.title("Interactive Polygon Editor")
 # Load the data
 @st.cache_data
 def load_data():
-    return pd.read_excel("Ctrack_POIs.xlsx")
+    return pd.read_excel("Ctrack_POIs (1).xlsx")
 
 try:
     data = load_data()
